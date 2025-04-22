@@ -59,7 +59,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Website           # <‑‑ key change
+          path: ./           # <‑‑ key change
 
   deploy:
     environment:
