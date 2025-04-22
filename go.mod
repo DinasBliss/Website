@@ -1,4 +1,4 @@
-module github.com/imfing/hextra-starter-template
+module github.com/DinasBliss/Website
 
 go 1.21
 
