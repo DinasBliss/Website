@@ -48,7 +48,6 @@ jobs:
 
       # 👉 Build FROM the /website sub‑folder
       - name: Build with Hugo
-        working-directory: website          # <‑‑ key change
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
@@ -60,7 +59,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./website/public            # <‑‑ key change
+          path: ./Website           # <‑‑ key change
 
   deploy:
     environment:
